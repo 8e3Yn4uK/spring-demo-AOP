@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
  */
 
 @Component
-public class AccountDao {
+public class AccountDAO {
 
     public void addAccount(){
-        System.out.println(getClass() + ": Doing my DB work - adding account");
+        System.out.println("\n" + getClass() + ": Doing my DB work - adding account");
     }
 }
